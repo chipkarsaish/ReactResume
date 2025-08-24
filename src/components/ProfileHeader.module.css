@@ -1,0 +1,71 @@
+.headerBg {
+  text-align: center;
+  background: transparent;
+  padding-bottom: 18px;
+}
+
+.photo {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  border: 5px solid #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.13);
+}
+
+.name {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.titles {
+  color: #e8f0fe;
+  font-size: 1.02rem;
+  margin: 6px 0;
+}
+
+.contactRow {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.contactItem {
+  background: #ebeef5;
+  color: #14537a;
+  border-radius: 28px;
+  padding: 6px 18px;
+  font-size: 0.98rem;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.tabRow {
+  display: flex;
+  justify-content: center;
+  gap: 34px;
+  margin-top: 16px;
+}
+
+.activeTab {
+  color: #13547a;
+  font-weight: 600;
+  border-bottom: 2.5px solid #13547a;
+  font-size: 1.08rem;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+.tab {
+  color: #fff;
+  font-weight: 550;
+  font-size: 1.08rem;
+  cursor: pointer;
+  opacity: 0.8;
+}

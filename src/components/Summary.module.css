@@ -1,0 +1,17 @@
+.summarySection {
+  background: #f5f8fd;
+  padding: 18px 28px 21px 28px;
+  border-radius: 18px;
+  box-shadow: 0 1px 6px rgba(31,100,235,0.05);
+}
+.heading {
+  color: #196583;
+  font-size: 1.14rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.summaryText {
+  font-size: 1.03rem;
+  color: #22506d;
+  margin: 0;
+}

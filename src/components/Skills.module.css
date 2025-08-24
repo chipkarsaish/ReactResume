@@ -1,0 +1,32 @@
+.skillSection {
+  background: #f4faff;
+  padding: 14px 24px 22px 24px;
+  border-radius: 19px;
+  box-shadow: 0 1px 6px rgba(31,100,235,0.06);
+}
+.heading {
+  margin-bottom: 13px;
+  color: #196583;
+  font-size: 1.12rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.skillsGrid {
+  display: flex;
+  gap: 20px;
+}
+.skillsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 14.5px;
+}
+.skillChip {
+  background: linear-gradient(to right, #8fd3f4 0%, #84fab0 100%);
+  color: #14537a;
+  border-radius: 19px;
+  padding: 7px 22px;
+  margin-bottom: 4px;
+  font-size: 0.98rem;
+  font-weight: 550;
+  box-shadow: 0 1px 4px rgba(120,206,194,0.13);
+}

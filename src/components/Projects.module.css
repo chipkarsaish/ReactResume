@@ -1,0 +1,75 @@
+.projectSection {
+  background: #f7fafc;
+  padding: 28px 36px 30px 36px;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: 0 1px 7px rgba(100,160,220,0.08);
+}
+.heading {
+  color: #196583;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 26px;
+  letter-spacing: 1px;
+}
+.projectsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.projectCard {
+  background: #edf6fa;
+  border-radius: 16px;
+  box-shadow: 0 1px 6px rgba(31,100,235,0.06);
+  padding: 20px 22px;
+  min-width: 270px;
+  max-width: 340px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.projectTitle {
+  color: #14537a;
+  font-size: 1.14rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.projectDesc {
+  font-size: 1.01rem;
+  color: #22506d;
+  margin-bottom: 12px;
+  min-height: 60px;
+}
+.tagsRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 13px;
+  flex-wrap: wrap;
+}
+.tagChip {
+  background: linear-gradient(94deg,#80d0c7 0%,#13547a 100%);
+  color: #fff;
+  border-radius: 11px;
+  padding: 5px 15px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.projectLink {
+  color: #196583;
+  background: #ddeefa;
+  padding: 7px 19px;
+  border-radius: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.97rem;
+  transition: background 0.24s;
+  box-shadow: 0 1px 4px rgba(120,206,194,0.13);
+}
+.projectLink:hover {
+  background: #80d0c7;
+  color: #fff;
+}

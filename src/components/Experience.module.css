@@ -1,0 +1,42 @@
+.expSection {
+  background: #f7fafc;
+  padding: 18px 28px 18px 28px;
+  border-radius: 18px;
+  margin-top: 12px;
+  box-shadow: 0 1px 7px rgba(100,160,220,0.08);
+}
+.heading {
+  color: #196583;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.expBlock {
+  color: #194d65;
+}
+.role {
+  display: block;
+  font-size: 1.13rem;
+  font-weight: bold;
+  color: #13547a;
+}
+.company {
+  display: block;
+  color: #2491c2;
+  font-weight: 600;
+  margin: 3px 0 4px 0;
+  letter-spacing: 0.3px;
+}
+.duration {
+  font-size: 0.97rem;
+  color: #577687;
+}
+.expList {
+  margin: 13px 0 0 0;
+  padding-left: 20px;
+  color: #285C74;
+  font-size: 1.01rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}

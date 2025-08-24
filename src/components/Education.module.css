@@ -1,0 +1,36 @@
+.eduSection {
+  background: #f8fbfd;
+  padding: 15px 26px 18px 26px;
+  border-radius: 17px;
+  box-shadow: 0 1px 7px rgba(100,160,220,0.06);
+}
+.heading {
+  color: #196583;
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin-bottom: 11px;
+}
+.eduBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.eduItem {
+  background: #e3f3fb;
+  border-radius: 12px;
+  padding: 10px 15px 11px 15px;
+}
+.eduMain {
+  font-weight: 600;
+  color: #14537a;
+  font-size: 1.04rem;
+  margin-bottom: 2px;
+}
+.eduInstitute {
+  color: #2171b7;
+  font-size: 0.97rem;
+}
+.eduYear {
+  color: #60778d;
+  font-size: 0.95rem;
+}
